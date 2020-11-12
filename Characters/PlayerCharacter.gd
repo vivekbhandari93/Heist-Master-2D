@@ -20,3 +20,7 @@ func move():
 	
 	velocity = lerp(velocity, Vector2.ZERO, FRICTION)
 
+
+func _input(event):
+	if Input.is_action_just_pressed("torch_toggle"):
+		$Torch.enabled = not $Torch.enabled
