@@ -43,4 +43,5 @@ left={
 
 [rendering]
 
+environment/default_clear_color=Color( 0.129412, 0.12549, 0.12549, 1 )
 environment/default_environment="res://default_env.tres"
